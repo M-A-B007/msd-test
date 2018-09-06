@@ -18,6 +18,7 @@ import org.testng.annotations.Test;
  * navigates to category with mBots and add two most expensive items to the cart.
  * Last step asserts if the cart contains expected number of items.
  **/
+@Deprecated
 public class EShopWebTest {
     private final String ESHOP_URL = "http://www.hwkitchen.cz";
     private WebDriver driver;
